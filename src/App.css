@@ -24,26 +24,14 @@
  gap: 15px;
  justify-content: space-around;
 }
-
-.container{
-  margin-top: 30px;
-  margin-left: 20px;
-  border: 1px solid black;
-  height: 250px;
-  width:700px;
-  background-color: rgb(15, 194, 249);
+.add-movie{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
-.Movie-Details{
-  height: 40px;
-  width:650px;
+.movie-details-Container{
+  padding: 20px;
 }
-.movie-button{
-  margin-top: 10px;
-  height: 30px;
-  width: 100px;
-  font-size: 12px;
-  font-weight: bold;
-}
-::placeholder{
-  font-weight: bold;
+.movie-details-Rating{
+  width: 1400px;
 }

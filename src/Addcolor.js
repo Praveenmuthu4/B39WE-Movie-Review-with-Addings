@@ -1,11 +1,11 @@
 import { useState } from "react";
 function Addcolor() {
-  const [color, setColor] = useState("pink");
+  const [color, setColor] = useState("");
   const styles = {
     background: color,
   };
 
-  const [colorList, setColorList] = useState(["yellow", "pink", "orange"]);
+  const [colorList, setColorList] = useState([""]);
 
   return (
     <div>
